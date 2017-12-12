@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Product</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='css/custom.css' rel='stylesheet' type='text/css'>
+	<link href='css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+	<link href='css/responsive.css' rel='stylesheet' type='text/css'>
+	<link href='css/styles.css' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div class="container-full">
+	<div id="bg">
+	  <img src="img/bahus.png" class="img img-responsive" alt="">
+	</div>
+
+	<div class="custom-sidebar custom-bar-block custom-collapse custom-card custom-animate-right" style="width:180px;right:0; color: white;" id="mySidebar">
+  <button class="custom-bar-item custom-button custom-large custom-hide-large" onclick="custom_close()">Close &times;</button>
+  
+   <div class="custom-dropdown-click">
+    <button onclick="myFunction()" class="custom-button "><img src="img/1x/Asset 50.png"></button>
+    <div id="Demo" class="modal modalprofile">
+      <a href="#" class="custom-bar-item custom-button warnaputih" style="background: transparent;">
+      	<select style="border: 0;">
+		  <option value="">Agus</option>
+		  <option value="">Logout</option>
+		</select>
+      </a>
+    </div>
+
+
+  </div>
+  <a href="#" class="custom-bar-item custom-button menumiring">Home</a>
+  <a href="#" class="custom-bar-item custom-button menumiring">PRODUCT</a>
+  <a href="#" class="custom-bar-item custom-button menumiring">ABOUT US</a>
+  <a href="#" class="custom-bar-item custom-button menumiring">CONTACT US</a>
+</div>
+
+<div class="custom-main" style="margin-right:200px">
+<div class="custom-teal">
+  <button class="custom-button custom-teal custom-xlarge custom-right custom-hide-large" onclick="custom_open()">&#9776;</button>
+  <div class="custom-container">
+  	<div class="form-group search">
+        <div class="input-group">
+            <span class="input-group-addon" style="background: transparent;border:0;">
+            	<img src="img/1x/Asset 54.png" width="25px;">
+            </span>
+            <input type="text" class="form-control" value="Search" id="inputGroup" style="background: transparent;
+		border:0;" />
+        </div>
+     </div>
+  </div>
+</div>
+
+
+</div>
+
+
+<div class="row" style="margin-top: 150px;">
+	<div class="col-md-1 col-xs-1">
+	</div>
+	<div class="col-md-3  col-xs-3" align="">
+		<p class="shirt">SHIRT</p><br />
+	</div>
+	<div class="col-md-8 col-xs-8">
+	</div>
+</div>
+
+<div class="row" >
+	<div class="col-md-1 col-xs-1">
+	</div>
+	<div class="col-md-3  col-xs-8" align="">
+		<p class="warnaputih">NEW STYLE FROM OUR PRODUCT</p>
+	</div>
+	<div class="col-md-8 col-xs-3">
+	</div>
+</div>
+
+
+
+
+<div  class="fixed-bottom footer">
+	<div class="col-md-1 col-xs-1">
+	</div>
+
+	<div class="col-md-1 col-xs-1" align="center">
+		<a href=""><img src="img/1x/shirt.png" class="img img-responsive"></a><br /><br />
+		<p class="fontbawah">SHIRT</p>
+	</div>
+
+	<div class="col-md-1 col-xs-1"  align="center">
+		<a href=""><img src="img/1x/pants.png" class="img img-responsive"></a><br /><br />
+		<p class="fontbawah">PANTS</p>
+	</div>
+
+	<div class="col-md-1 col-xs-1"  align="center">
+		<a href=""><img src="img/1x/polo.png" class="img img-responsive"></a><br /><br />
+		<p class="fontbawah">POLO</p>
+	</div>
+
+	<div class="col-md-1 col-xs-1"  align="center">
+		<a href=""><img src="img/1x/belt.png" class="img img-responsive"></a><br /><br />
+		<p class="fontbawah">BELT</p>
+	</div>
+
+	<div class="col-md-1 col-xs-1"  align="center">
+		<a href=""><img src="img/1x/bag.png" class="img img-responsive"></a><br /><br />
+		<p class="fontbawah">BAG</p>
+	</div>
+
+	<div class="col-md-1 col-xs-1"  align="center">
+		<a href=""><img src="img/1x/watch.png" class="img img-responsive"></a><br /><br />
+		<p class="fontbawah">WRISTWATCH</p>
+	</div>
+
+	<div class="col-md-1 col-xs-1"  align="center">
+		<a href=""><img src="img/1x/shoes.png" class="img img-responsive"></a><br /><br />
+		<p class="fontbawah">SHOE</p>
+	</div>
+
+	<div class="col-md-3  col-xs-1 center" align="center">
+		<h4><a href="http://www.facebook.com" class="shopnow">SHOP NOW</a></h4>
+		<hr class="hrbawah">
+	</div>
+
+	<div class="col-md-1  col-xs-1">
+
+	</div>
+
+</div>
+
+<script>
+function custom_open() {
+    document.getElementById("mySidebar").style.display = "block";
+}
+function custom_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+</div>
+</body>
+<footer>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery-3.2.1.min.js"></script>
+	
+	<script>
+function custom_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+function custom_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("Demo");
+    if (x.className.indexOf("custom-show") == -1) {
+        x.className += " custom-show";
+    } else { 
+        x.className = x.className.replace(" custom-show", "");
+    }
+}
+</script>
+	
+</footer>
+</html>
